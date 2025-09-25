@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervallhalbierungsverfahren</title>
+
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="result.html" method="get">
+        <h1>Intervallhalbierungsverfahren</h1>
+        <label for="squareRoot">Zahl, deren Quadratwurzel berechnet werden soll:</label>
+        <input type="number" id="squareRoot" name="squareRoot" value="2" step="any" placeholder="Quadratwurzel?" required>
+        <br><br>
+        <label for="iterations">Anzahl der Iterationen:</label>
+        <input type="number" id="iterations" name="iterations" value="10" min="1" placeholder="Wie viele Iterationen?" required>
+        <br><br>
+        <label>
+            <input type="checkbox" id="showTable" name="showTable" checked>
+            Zwischenergebnisse anzeigen
+        </label>
+        <br><br>
+        <p>Schalte die Zwischenergebnisse bei zu vielen Iterationen aus, um dein Gerät keiner zu großen Last auszusetzen.</p>
+        <input type="submit" value="Berechnen">
+</body>
+</html>

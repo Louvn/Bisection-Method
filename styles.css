@@ -1,0 +1,71 @@
+body {
+    background-color: #c0c0f4;
+    font-family: "Roboto", monospace;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    font-family: "SUSE Mono", monospace;
+}
+
+th, td {
+    border: 2px solid #ccc;
+    overflow: scroll;
+    padding: 5px;
+}
+th {
+    background-color: #e2e2e2;
+    font-weight: bold;
+    font-style: italic;
+}
+tr.last-row {
+    background-color: #009000;
+    font-weight: bold;
+    color: #fff;
+}
+#result h1 {
+    font-size: 24px;
+    color: #000;
+}
+#result {
+    overflow-wrap: break-word;
+    color: #555;
+}
+a {
+    color: darkblue;
+}
+
+/* index.html */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    font-family: "SUSE Mono", monospace;
+}
+input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+form h1 {
+    text-align: center;
+    color: #007BFF;
+    font-size: 30px;
+}
